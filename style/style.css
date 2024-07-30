@@ -40,9 +40,11 @@ table td{
     background-color: bisque;
     text-align: center;
 }
+
 table{
     width:100%;
 }
+
 td,th{
     width:25%;
 }
