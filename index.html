@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="javascript/javascript.js"></script>
+</head>
+<body>
+    <div class="section">
+        <div class="head">
+            <h1>Add a new transaction:</h1>
+        </div>
+        <div class="form">
+            <span id="top">
+            Type : <select name="type" id="type">
+                <option>choose one...</option>
+                <option>Income</option>
+                <option>Expense</option>
+                <option>Savings</option>
+                <option>Others</option>
+            </select></span>
+            <span id="pos1">Name : <input type="text" id="name"></span>
+            <span id="pos2">Amount : <input type="text" id="amount"></span>
+            <button id="submit" onclick="add()">Add to transactions</button>
+        </div>
+    </div>
+    <div class="last">
+        <table>
+            <tr>
+                <th id="t1">Type</th>
+                <th id="n1">Name</th>
+                <th id="a1">Amount</th>
+                <th id="op1">Options</th>
+            </tr>
+            <tr class="new">
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

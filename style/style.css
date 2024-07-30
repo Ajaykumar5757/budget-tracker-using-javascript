@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(92, 140, 236);
+}
+
+.section{
+    max-width: 800px;
+    margin:80px auto;
+    background-color: #ffe4c4;
+    padding:0px 0px 30px;
+}
+
+.head{
+    background-color: blue;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: blue;
+    color:white;
+    padding: 10px 20px;
+    display: block;
+    margin-left:280px;
+    margin-top:40px;
+}
+
+.last{
+    max-width: 800px;
+    margin:10px auto;
+    padding:0px 0px 30px;
+}
+
+table th{
+    background-color: blue;
+    color:white;
+}
+
+table td{
+    background-color: bisque;
+}
+
+table{
+    width:100%;
+}
+table td,tr,th{
+    border: 3px solid rgb(92, 140, 236);
+    border-collapse: collapse;
+    padding:5px;
+}
+
+#pos1{
+    float:right;
+    margin-right:100px;
+}
+
+#pos2{
+    margin-left:398px;
+    margin-right:100px;
+}
+
+.form{
+    padding:30px;
+}
+
+#amount{
+    margin-top:15px;
+    padding:5px;
+}
+
+#name{
+    margin-top:20px;
+    padding:5px;
+}
+
+#top{
+    padding: 30px 30px;
+    margin-left:30px;
+}
+
+select{
+    padding:7px;
+    width:150px;
+    margin-top:20px;
+}
